@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  background: #000;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+h2 {
+  font-size: 3rem; }
+
+p {
+  font-size: 1rem; }
+
+.section-text {
+  font-size: 1.5rem; }
+
+.section-subtitle {
+  font-size: 2rem; }
+
+#main-showcase {
+  height: 89vh; }
+  #main-showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    #main-showcase .showcase-container img {
+      width: 40%; }
+    #main-showcase .showcase-container div {
+      margin-top: 1rem; }
+      #main-showcase .showcase-container div a {
+        color: #FFF; }
+
+#main-about {
+  padding: 3.5rem 1.5rem;
+  background: #1a1a1a; }
+  #main-about .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    #main-about .about-container .about-text {
+      flex: 1;
+      margin: 2rem;
+      padding: 1.5rem; }
+      #main-about .about-container .about-text p {
+        margin-top: 1.5rem;
+        text-align: justify; }
+    #main-about .about-container .about-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1; }
+      #main-about .about-container .about-img img {
+        width: 100%; }
+
+#podcast-icons-section {
+  background: #F4F4F4;
+  color: #000; }
+  #podcast-icons-section .podcast-icons-container {
+    width: 780px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem; }
+    #podcast-icons-section .podcast-icons-container .podcast-icons-text {
+      text-align: center; }
+      #podcast-icons-section .podcast-icons-container .podcast-icons-text p:nth-child(2) {
+        margin-top: 1rem; }
+      #podcast-icons-section .podcast-icons-container .podcast-icons-text p:nth-child(3) {
+        margin-top: 1rem; }
+      #podcast-icons-section .podcast-icons-container .podcast-icons-text p:nth-child(4) {
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
+    #podcast-icons-section .podcast-icons-container .podcast-icons ul {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #podcast-icons-section .podcast-icons-container .podcast-icons ul li {
+        margin: 0 2rem; }
+        #podcast-icons-section .podcast-icons-container .podcast-icons ul li a:hover {
+          color: #E62074; }
+        #podcast-icons-section .podcast-icons-container .podcast-icons ul li a i:hover {
+          transform: scale(1.1); }
+
+#episodes-banner {
+  background: #1a1a1a;
+  margin: auto;
+  padding: 4rem 0; }
+  #episodes-banner .episodes-banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+#spotify-podcast-section {
+  background: #000;
+  padding: 4rem 0rem; }
+  #spotify-podcast-section .spotify-podcast-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #spotify-podcast-section .spotify-podcast-content iframe {
+      margin-top: 2.5rem;
+      width: 500px;
+      height: 500px;
+      box-shadow: 0px 0px 15px 5px #E62074;
+      border: none;
+      overflow: hidden;
+      overflow-x: hidden;
+      overflow-x: hidden; }
+
+#mision-section {
+  padding: 3.5rem 1.5rem;
+  background: #000; }
+  #mision-section .mision-section-content {
+    display: flex; }
+    #mision-section .mision-section-content .mision-image {
+      flex: 1;
+      width: 100%;
+      margin: 2rem;
+      padding: 1.5rem; }
+      #mision-section .mision-section-content .mision-image img {
+        width: 100%;
+        box-shadow: 0px 0px 15px -1px #1a1a1a; }
+    #mision-section .mision-section-content .mision-text {
+      flex: 2;
+      width: 100%;
+      margin: 2rem;
+      padding: 1.5rem; }
+      #mision-section .mision-section-content .mision-text .section-text {
+        margin-top: 2rem;
+        text-align: justify; }
+
+#main-footer {
+  display: flex;
+  flex-direction: column; }
+  #main-footer .footer-content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #main-footer .footer-content .footer-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      #main-footer .footer-content .footer-image img {
+        width: 50%; }
+    #main-footer .footer-content .footer-social-icons {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #main-footer .footer-content .footer-social-icons .section-text {
+        margin-bottom: 2.5rem; }
+      #main-footer .footer-content .footer-social-icons ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        #main-footer .footer-content .footer-social-icons ul li {
+          margin: 0 2rem; }
+          #main-footer .footer-content .footer-social-icons ul li a {
+            color: #FFF; }
+            #main-footer .footer-content .footer-social-icons ul li a:hover {
+              color: #E62074; }
+  #main-footer .rights-reserved {
+    padding-top: 2rem;
+    padding-bottom: 0.25rem;
+    color: #FFF;
+    text-align: center; }
+    #main-footer .rights-reserved small a {
+      color: #FFF; }
+      #main-footer .rights-reserved small a:hover {
+        color: #E62074; }

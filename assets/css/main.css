@@ -38,7 +38,8 @@ p {
     #main-showcase .showcase-container img {
       width: 40%; }
     #main-showcase .showcase-container div {
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      margin-bottom: 1.5rem; }
       #main-showcase .showcase-container div a {
         color: #FFF; }
 
@@ -148,6 +149,14 @@ p {
 #main-footer {
   display: flex;
   flex-direction: column; }
+  #main-footer .quote-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+    padding: 1.5rem; }
+    #main-footer .quote-footer blockquote .quote-author {
+      text-align: end; }
   #main-footer .footer-content {
     margin: auto;
     display: flex;
@@ -188,3 +197,10 @@ p {
       color: #FFF; }
       #main-footer .rights-reserved small a:hover {
         color: #E62074; }
+
+#bio-section {
+  padding: 3.5rem 1.5rem;
+  background: #1a1a1a; }
+  #bio-section .bio-section-container {
+    margin: 2rem;
+    padding: 1.5rem; }
